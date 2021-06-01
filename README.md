@@ -10,7 +10,7 @@ The following thesis discusses a section of the parent project, focusing on the 
 For this undergraduate thesis, the aim is to design a vision based assist system capable of controlling the e2o car autonomously, keeping the stereo camera as the global sensor. The idea is to use the technology which is developed by Mathworks and mold it according to the required needs. Initially, the focus was on understanding and working on the MATLAB vision toolbox, but later, the approach was diversified. The algorithms were tested on simulation and real-world videos. ROS-MATLAB framework was also explored to integrate the results and outputs to control the car
 
 
-<b> Implementation : Forward Collision Warning System </b>
+<b><h1> Implementation : Forward Collision Warning System </h1></b>
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
 2. Feed the found properties to the MATLAB code 
@@ -18,8 +18,7 @@ For this undergraduate thesis, the aim is to design a vision based assist system
  
 MATLAB 2019b was used for the generation of the result below
 
-<p align="center">Results</p>
-<h1 align="center">Material Bread</h1>
+<p align="left">Results</p>
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 1">
 
