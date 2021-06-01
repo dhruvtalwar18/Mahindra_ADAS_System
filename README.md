@@ -27,7 +27,7 @@ MATLAB 2019b was used for the generation of the result below
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 2">
 <p align="center">Fig.2 Vechicle and Pedestrian Detection</p><br />
 
-In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set, the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
+In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set(cuurently set as 2m), the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
 And the detection would appear in red bounding boxes
 Eg:
 
