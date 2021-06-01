@@ -56,6 +56,10 @@ Before the code(Lane_detect_code.m) is run the following steps must be taken:-
 
 
 
+<b><h1> Future Scope </h1></b>
 
+Simultanous mplementation of both the systems is to be done, also instead of using pre recorded videos the inputs to both these systems need to be live video feed.
+For this the ROS-MATLAb bridge can we used where the /raw_video feed topic can be given to both the algorithms and real time control of the vehicle can be achived.
+Also simulation results suggest that PID control to be added to the steering angle algorithm as sudden changes in the steering angles gives rise to "dead reckoning" which results in an un-smooth vehicle trajectory
 
 
