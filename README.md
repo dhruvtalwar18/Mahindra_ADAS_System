@@ -18,7 +18,8 @@ For this undergraduate thesis, the aim is to design a vision based assist system
  
 MATLAB 2019b was used for the generation of the result below
 
-<p align="center"><b><center> Results</center> </b></p>
+<p align="center">Results</p>
+<h1 align="center">Material Bread</h1>
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 1">
 
