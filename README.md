@@ -22,9 +22,9 @@ MATLAB 2019b was used for the generation of the result below. ALso the MATLAB AD
 
 <h1><p align="left">Results</p></h1>
 
-<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/FCWS_GIF.gif" title="Result 1"></p>
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/FCWS_GIF.gif" title="Result 1"></p>
 <p align="center">Fig.1 Live vechicle detection</p><br />
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 2">
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/car_ped.png" title="Result 2">
 <p align="center">Fig.2 Vechicle and pedestrian detection</p>
 
 <br>
@@ -32,7 +32,7 @@ MATLAB 2019b was used for the generation of the result below. ALso the MATLAB AD
 In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set(cuurently set as 2m), the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
 And the detection would appear in red bounding boxes, Refer Fig. 3 
 
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/close_ped.png" title="Result 3">
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/close_ped.png" title="Result 3">
 <p align="center"> Fig.3 Unsafe distance of the pedestrian from the car</p>
 
 <b><h1> Implementation : Lane Assist System </h1></b>
@@ -45,7 +45,7 @@ Before the code(INSERT CODE.m) is run the following steps must be taken:-
 
 <h1><p align="left">Results</p></h1>
 
-<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
 <p align="center">Fig.4 Parabolic lane detection and steering angle generation</p><br />
 
 
