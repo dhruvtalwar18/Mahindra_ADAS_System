@@ -11,32 +11,36 @@ For this undergraduate thesis, the aim is to design a vision based assist system
 
 
 <b><h1> Implementation : Forward Collision Warning System </h1></b>
+The forward warning collision system will take in live video from the monocular camera, and give the world coordinates of the vehicle as well as the pedestrian wrt the Ego vehicle. In case a vehicle or pedestrian is very close to the Ego vehicle brakes will be deployed by sending brake msgs over the MATLAB-ROS bridge.
+
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
-2. Feed the found properties to the MATLAB code 
+2. Feed the found properties to the MATLAB code(Final_car.m) 
 3. Give the correct Video path on which the code is to be run and run the code 
  
 MATLAB 2019b was used for the generation of the result below
 
 <h1><p align="left">Results</p></h1>
 
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 1">
-<p align="center">Fig.1 Vechicle and Pedestrian Detection</p><br />
-
-
-
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/single_car.png" title="Result 2">
-<p align="center">Fig.2 Vechicle Detection<br></p>  
-
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/FCWS_GIF.gif" title="Result 1"></p>
+<p align="center">Fig.1 Live Vechicle detection</p><br />
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 2">
+<p align="center">Fig.2 Vechicle and Pedestrian Detection</p><br />
 
 In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set, the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
 And the detection would appear in red bounding boxes
-
 Eg:
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/close_ped.png" title="Result 3">
 <p align="center"> Fig.3 Unsafe distance of the Pedestrian from the car</p>
 
 <b><h1> Implementation : Lane Assist System </h1></b>
+The Lane Assist System using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The Steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself
+
+
+
+
+
+
 
 
