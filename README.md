@@ -13,7 +13,7 @@ For this undergraduate thesis, the aim is to design a vision based assist system
 <b><h1> Implementation : Forward Collision Warning System </h1></b>
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
-2. Feed the found properties to the MATLAB code 
+2. Feed the found properties to the MATLAB code(Final_car.m) 
 3. Give the correct Video path on which the code is to be run and run the code 
  
 MATLAB 2019b was used for the generation of the result below
