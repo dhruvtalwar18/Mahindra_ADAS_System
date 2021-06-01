@@ -13,7 +13,7 @@ For this undergraduate thesis, the aim is to design a vision based assist system
 <b> Implementation : Forward Collision Warning System </b>
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/Calibration%20results.png" width = "500" height = "600"
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/Calibration%20results.png" width = "500" height = "600">
 2.   
 
 
