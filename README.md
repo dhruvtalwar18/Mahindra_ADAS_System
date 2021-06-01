@@ -16,7 +16,7 @@ The forward warning collision system will take in live video from the monocular 
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
 2. Feed the found properties to the MATLAB code(Final_car.m) 
-3. Give the correct Video path on which the code is to be run and run the code 
+3. Give the correct video path on which the code is to be run and run the code 
  
 MATLAB 2019b was used for the generation of the result below
 
@@ -34,16 +34,16 @@ And the detection would appear in red bounding boxes, Refer Fig. 3
 <p align="center"> Fig.3 Unsafe distance of the pedestrian from the car</p>
 
 <b><h1> Implementation : Lane Assist System </h1></b>
-The Lane assist system using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself. We incorporated 2 different techniques, that is linear lane detection, i.e lanes will be detected as straight lines and the other is parabolic lane detection in which the detected lane would curve with the lane as a 2nd degree polynomial.
+The lane assist system using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself. We incorporated 2 different techniques, that is linear lane detection, i.e lanes will be detected as straight lines and the other is parabolic lane detection in which the detected lane would curve with the lane as a 2nd degree polynomial.
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
 2. Feed the found properties to the MATLAB code(INSERT CODE.m) 
-3. Give the correct Video path on which the code is to be run and run the code  
+3. Give the correct video path on which the code is to be run and run the code  
 
 <h1><p align="left">Results</p></h1>
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
-<p align="center">Fig.1 Parabolic Lane Detection and Steering Angle Generation</p><br />
+<p align="center">Fig.4 Parabolic lane detection and steering angle generation</p><br />
 
 
 
