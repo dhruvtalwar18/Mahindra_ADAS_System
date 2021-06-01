@@ -24,9 +24,7 @@ MATLAB 2019b was used for the generation of the result below. ALso the MATLAB AD
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/FCWS_GIF.gif" title="Result 1"></p>
 
-<div margin:10px>
 <p align="center">Fig.1 Live vehicle and pedestrian detection</p>
-</div>
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/car_ped.png" title="Result 2">
 <p align="center">Fig.2 Vehicle and pedestrian detection</p>
@@ -41,9 +39,9 @@ And the detection would appear in red bounding boxes, Refer Fig. 3
 <b><h1> Implementation : Lane Assist System </h1></b>
 The lane assist system using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself. We incorporated 2 different techniques, that is linear lane detection, i.e lanes will be detected as straight lines and the other is parabolic lane detection in which the detected lane would curve with the lane as a 2nd degree polynomial.
 
-Before the code(INSERT CODE.m) is run the following steps must be taken:-
+Before the code(Lane_detect_code.m) is run the following steps must be taken:-
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
-2. Feed the found properties to the MATLAB code(INSERT CODE.m) 
+2. Feed the found properties to the MATLAB code(Lane_detect_code.m) 
 3. Give the correct video path on which the code is to be run and run the code  
 
 <h1><p align="left">Results</p></h1>
@@ -51,11 +49,17 @@ Before the code(INSERT CODE.m) is run the following steps must be taken:-
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
 <p align="center">Fig.4 Parabolic lane detection and steering angle generation</p><br />
 
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Linear_lane_detection_GIF.gif" title="Result 2"></p>
+<p align="center">Fig.4 Linear lane detection and steering angle generation</p><br />
 
 
 
 
 
+<b><h1> Future Scope </h1></b>
 
+Simultanous mplementation of both the systems is to be done, also instead of using pre recorded videos the inputs to both these systems need to be live video feed.
+For this the ROS-MATLAb bridge can we used where the /raw_video feed topic can be given to both the algorithms and real time control of the vehicle can be achived.
+Also simulation results suggest that PID control to be added to the steering angle algorithm as sudden changes in the steering angles gives rise to "dead reckoning" which results in an un-smooth vehicle trajectory
 
 
