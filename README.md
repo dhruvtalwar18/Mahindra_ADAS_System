@@ -28,13 +28,12 @@ MATLAB 2019b was used for the generation of the result below
 <p align="center">Fig.2 Vechicle and Pedestrian Detection</p><br />
 
 In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set(cuurently set as 2m), the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
-And the detection would appear in red bounding boxes
-Eg:
+And the detection would appear in red bounding boxes, Refer Fig. 3 
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/close_ped.png" title="Result 3">
 <p align="center"> Fig.3 Unsafe distance of the Pedestrian from the car</p>
 
-<b><h1> Implementation : Lane Assist System </h1></b>
+<b><h1> Implementation : Lane assist system </h1></b>
 The Lane Assist System using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The Steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself. We incorporated 2 different techniques, that is linear lane detection, i.e lanes will be detected as straight lines and the other is parabolic lane detection in which the detected lane would curve with the lane as a 2nd degree polynomial
 
 <h1><p align="left">Results</p></h1>
