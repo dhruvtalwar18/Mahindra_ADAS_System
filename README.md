@@ -39,8 +39,8 @@ The Lane Assist System using the same input from the monocular camera will detec
 
 <h1><p align="left">Results</p></h1>
 
-
-
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
+<p align="center">Fig.1 Parabolic Lane Detection and Steering Angle Generation</p><br />
 
 
 
