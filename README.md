@@ -7,7 +7,7 @@ The following thesis discusses a section of the parent project, focusing on the 
 
 <b><h1>Overview</h1></b>
 
-For this undergraduate thesis, the aim is to design a vision based assist system capable of controlling the e2o car autonomously, keeping the stereo camera as the global sensor. The idea is to use the technology which is developed by Mathworks and mold it according to the required needs. Initially, the focus was on understanding and working on the MATLAB vision toolbox, but later, the approach was diversified. The algorithms were tested on simulation and real-world videos. ROS-MATLAB framework was also explored to integrate the results and outputs to control the car
+For this undergraduate thesis, the aim is to design a vision based assist system capable of controlling the e2o car autonomously, keeping the stereo camera as the global sensor. The idea is to use the technology which is developed by Mathworks and mold it according to the Indian roads, in our experiements we rested tested the algorithm on the IIT Delhi campus roads. Initially, the focus was on understanding and working on the MATLAB vision toolbox, but later, the approach was diversified. The algorithms were tested on simulation and real-world videos. ROS-MATLAB framework was also explored to integrate the results and outputs to control the car
 
 
 <b><h1> Implementation : Forward Collision Warning System </h1></b>
