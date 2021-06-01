@@ -21,12 +21,12 @@ MATLAB 2019b was used for the generation of the result below
 <h1><p align="left">Results</p></h1>
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/FCWS_GIF.gif" title="Result 3">
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 1" width ="600" height="600">
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/car_ped.png" title="Result 1" width ="600" height="400">
 <p align="center">Fig.1 Vechicle and Pedestrian Detection</p><br />
 
 
 
-<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/single_car.png" title="Result 2" width ="600" height="600">
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/single_car.png" title="Result 2" width ="600" height="400">
 <p align="center">Fig.2 Vechicle Detection</p>    
 
 
