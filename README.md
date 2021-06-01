@@ -26,7 +26,7 @@ MATLAB 2019b was used for the generation of the result below
 
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/single_car.png" title="Result 2">
-<p align="center">Fig.2 Vechicle Detection<br></p>  
+<p align="center">Fig.2 Vechicle Detection</p>    
 
 
 In a pedestrian or a vehicle comes closer to the Ego vehicle than the safe distance set, the algorithm would send braking commands to the ROS master on the ROS topic /E2OCtrl
@@ -38,5 +38,8 @@ Eg:
 <p align="center"> Fig.3 Unsafe distance of the Pedestrian from the car</p>
 
 <b><h1> Implementation : Lane Assist System </h1></b>
+<img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTTPII/FCWS_GIF.gif" title="Result 3">
+
+
 
 
