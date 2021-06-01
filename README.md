@@ -24,9 +24,7 @@ MATLAB 2019b was used for the generation of the result below. ALso the MATLAB AD
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/FCWS_GIF.gif" title="Result 1"></p>
 
-<div margin:10px>
 <p align="center">Fig.1 Live vehicle and pedestrian detection</p>
-</div>
 
 <img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/car_ped.png" title="Result 2">
 <p align="center">Fig.2 Vehicle and pedestrian detection</p>
@@ -51,6 +49,8 @@ Before the code(INSERT CODE.m) is run the following steps must be taken:-
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Parabolic_Lane%20Detection.gif" title="Result 1"></p>
 <p align="center">Fig.4 Parabolic lane detection and steering angle generation</p><br />
 
+<p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Linear_lane_detection_GIF.gif" title="Result 2"></p>
+<p align="center">Fig.4 Linear lane detection and steering angle generation</p><br />
 
 
 
