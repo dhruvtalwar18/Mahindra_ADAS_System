@@ -35,7 +35,13 @@ Eg:
 <p align="center"> Fig.3 Unsafe distance of the Pedestrian from the car</p>
 
 <b><h1> Implementation : Lane Assist System </h1></b>
-The Lane Assist System using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The Steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself
+The Lane Assist System using the same input from the monocular camera will detect lanes and output the steering angles that is required by the vehicle to drive in between of the lanes. The Steering angle generated form the code would then be published to the same topic that is /E2OCtrl using which the vehicle would steer itself. We incorporated 2 different techniques, that is linear lane detection, i.e lanes will be detected as straight lines and the other is parabolic lane detection in which the detected lane would curve with the lane as a 2nd degree polynomial
+
+<h1><p align="left">Results</p></h1>
+
+
+
+
 
 
 
