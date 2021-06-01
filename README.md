@@ -11,7 +11,7 @@ For this undergraduate thesis, the aim is to design a vision based assist system
 
 
 <b><h1> Implementation : Forward Collision Warning System </h1></b>
-The forward warning collision system will take in live video from the monocular camera, and give the world coordinates of the vehicle as well as the pedestrian wrt the Ego vehicle. In case a vehicle or pedestrian is very close to the Ego vehicle brakes will be deployed by sending brake msgs over the MATLAB-ROS bridge.
+The forward warning collision system will take in live video from the monocular camera, and give the world coordinates of the vehicle as well as the pedestrian wrt the Ego vehicle. In case a vehicle or pedestrian is very close i.e within 2 car lengths that is between 1.5- 3 meters, the Ego vehicle brakes will be deployed by sending brake msgs over the MATLAB-ROS bridge.
 
 
 1. Using the MATLAB Camera callibration toolbox, calibrate the camera to get the intrinsic and extrinsic properties 
