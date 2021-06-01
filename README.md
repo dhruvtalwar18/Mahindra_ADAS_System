@@ -18,7 +18,7 @@ Before the code(Final_car.m) is run the following steps must be taken:-
 2. Feed the found properties to the MATLAB code(Final_car.m) 
 3. Give the correct video path on which the code is to be run and run the code 
  
-MATLAB 2019b was used for the generation of the result below
+MATLAB 2019b was used for the generation of the result below. ALso the MATLAB ADAS toolbox needs to be installed as a pre-requisit
 
 <h1><p align="left">Results</p></h1>
 
