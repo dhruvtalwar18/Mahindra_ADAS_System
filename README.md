@@ -53,10 +53,10 @@ Before the code(Lane_detect_code.m) is run the following steps must be taken:-
 <p align="center">Fig.4 Linear lane detection and steering angle generation</p><br />
 
 
-Steering Demo on Vehicle
+
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Mahindra_ADAS_System/blob/main/images_BTPII/Dead_Reckoning_Steering_Demo.gif" title="Result 3"></p>
-
+<p align="center">Fig.5 Steering Demonstation on actual car</p><br />
 
 
 
